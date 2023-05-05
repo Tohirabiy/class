@@ -12,15 +12,20 @@ div {
   height: 100px;
   background-color: red;
   position: relative;
-  animation-name: sqq;
+  /* animation-name: sqq;
   animation-duration: 4s;
   animation-timing-function:cubic-bezier(0.22, 0.61, 0.36, 1);
   animation-delay: 2s;
   animation-iteration-count:infinite;
   animation-direction:alternate;
   animation-fill-mode:backwards;
-  animation-play-state: running;
+  animation-play-state: running; */
+  animation: sqq 4s linear 2s infinite alternate backwards running;
+
 }
+
+
+
 @keyframes sqq {
   0% {
     background-color: red;
